@@ -18,7 +18,7 @@ ul {
 }
 
 body > header {
-    background-color: orange;
+    background-color: rgb(17, 17, 233);
     color: white;
     height: 12vh;
     display: flex;
@@ -53,6 +53,7 @@ body > main article {
     margin: auto;
 }
 
+
 #main-content {
     display: flex;
     justify-content: space-around;
@@ -63,7 +64,7 @@ body > main article {
 }
 
 form {
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
@@ -71,7 +72,7 @@ h2 {
 }
 
 body> footer  {
-    background-color: orange;
+    background-color: red;
     display: flex;
 }
 
@@ -91,4 +92,6 @@ body> footer  {
 
 img {
     border-radius: 20%;
+    width: 800px;
+    height: 250px;
 }
