@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const images = document.querySelectorAll("img");
+    const images = document.querySelectorAll(".england-pic");
 
     for(const image of images){
         fetch("")
