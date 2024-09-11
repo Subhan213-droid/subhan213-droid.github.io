@@ -5,11 +5,11 @@
     <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VisitUK</title>
+    <title>DiscoverUK</title>
 </head>
 <body>
     <header id="main-header">
-        <h1>Visit the UK</h1>
+        <h1>Discover the UK</h1>
         <nav id="nav-ul">
             <li><a href="" class="navbutton">Home</a></li>
             <li><a href="" class="navbutton">About us</a></li>
@@ -19,16 +19,6 @@
     <main>
         <div id="main-content">
                         <aside>
-                <section>
-                    <h4>Filter by Month</h4>
-                    <nav>
-                        <ul>
-                            <li><a href=""></a>Filter for January</li>
-                            <li><a href=""></a>Filter for February</li>
-                            <li><a href=""></a>Filter for March</li>
-                        </ul>
-                    </nav>
-    
                 </section>
                 <h4>Filter by Country</h4>
                 <nav>
@@ -39,6 +29,10 @@
                         <li><a href="">Northern Ireland</a></li>
                     </ul>
                 </nav>
+                <img id="london" src="https://t4.ftcdn.net/jpg/02/57/75/51/360_F_257755130_JgTlcqTFxabsIKgIYLAhOFEFYmNgwyJ6.jpg" alt="UK-pics">
+                <button id="button" onclick="changeImage()">Next Image</button>
+                <script src="script.js"></script>
+                
                 <section>
     
                 </section>
@@ -46,13 +40,13 @@
             <div>
                 <article>
                     <header>
-                        <h2>Reasons for visiting the UK</h2>
+                        <h2>Unforgettable Journeys Await in the UK</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="UK_flag">
                         <h2>England</h2>
         
                     </header>
         
-                        <img class="england-pic"  src="https://www.tripsavvy.com/thmb/hitaOIDM_pd-bQrp9eAuE1N4NyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-174726708-9125b51de4e14e759e688c019a0f52ca.jpg" 
+                        <img src="https://www.tripsavvy.com/thmb/hitaOIDM_pd-bQrp9eAuE1N4NyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-174726708-9125b51de4e14e759e688c019a0f52ca.jpg" 
                         alt="England">
                       
                     
@@ -101,8 +95,8 @@
         
                     </main>
                     <footer>
-                        <h5>Last posted: 21/08/2024</h5>
-                        <a href="https://www.brightnetwork.co.uk/dashboard/" target="_blank">Author Profile</a>
+                        <h5>Last posted: 11/09/2024</h5>
+                        <a href="https://www.britishairways.com/travel/home/public/en_us/" target="_blank">Book your holiday now!</a>
         
                     </footer>
                 </article>
@@ -114,7 +108,7 @@
         </div>
 
         <hr>
-        <h3>Sign Up for our newsletter!</h3>
+        <h3 class="newsletter">Sign Up for our newsletter!</h3>
 
         <form action="">
             <label for="first_name">First Name: </label>
@@ -130,15 +124,11 @@
             <input type="password" name="password" id="password">
             <br>
 
-            <label for="First visit to">First visit to:</label>
-            <input type="radio" name="first visit to" id="england" value="england">
-            <label for="england">England</label>
-            <input type="radio" name="first visit to" id="wales" value="wales">
-            <label for="wales">Wales</label>
-            <input type="radio" name="first visit to" id="scotland" value="scotland">
-            <label for="scotland">Scotland</label>
-            <input type="radio" name="first visit to" id="northern_ireland" value="northern_ireland">
-            <label for="northern_ireland">Northern Ireland</label>
+            <label for="First visit?">First visit?</label>
+            <input type="radio" name="first visit?" id="yes" value="yes">
+            <label for="england">Yes</label>
+            <input type="radio" name="first visit?" id="no" value="no">
+            <label for="no">No</label>
             <br>
 
             <label for="country">Country:</label>
@@ -146,7 +136,7 @@
                 <option value="england">England</option>
                 <option value="wales">Wales</option>
                 <option value="scotland">Scotland</option>
-                <option value="northern_ireland">Northern ireland</option>
+                <option value="northern_ireland">Northern Ireland</option>
             </select>
             <br>
             <input type="checkbox" name="Subscribe" id="Subscribe">
@@ -173,7 +163,7 @@
                     </div>
                     <div>
                     <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
                     <li><a href="">Cookie policy</a></li>
                     </div>
                     
